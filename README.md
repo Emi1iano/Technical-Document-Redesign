@@ -81,7 +81,7 @@ static int printDetailedCoordinates() {
 
 # Server side way of adding commands
 The Fabric API has a `CommandRegistrationCallback` in `net.fabricmc.fabric.api.client.command.v2`  
-package that can be used to register client-side commands.  
+package that can be used to register Server-side commands.  
 
 Registering commands for a server side mod is very similiar to client side commmands.  
 When you register server side commands everyone playing with you will have to have the mod  
